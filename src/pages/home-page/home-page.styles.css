@@ -1,0 +1,13 @@
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    border: 1px solid cornflowerblue;
+    border-radius: 5%;
+    padding: 20px;
+    margin: 20px;
+}
