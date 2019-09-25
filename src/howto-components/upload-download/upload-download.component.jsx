@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DropZone from '../../components/drop-zone/drop-zone.component';
 
 class UploadDownload extends Component {
     state = {};
@@ -10,7 +11,7 @@ class UploadDownload extends Component {
     render() {
         return (
             <div style={{ margin: '100px auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <input id="fileInput" type="file" onChange={this.handleOnChange} />
+                <DropZone />
             </div>
         );
     }
