@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class XORComponent extends Component {
-    state = { checkbox1Checked: false, checkbox2Checked: false };
+    state = { checkbox1Checked: true, checkbox2Checked: false };
 
     handleOnChange = event => {
         const { id } = event.currentTarget;

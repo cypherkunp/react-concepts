@@ -22,6 +22,9 @@ const HomePage = () => {
                     <li>
                         <Link to="/using-forms">Using Forms</Link>
                     </li>
+                    <li>
+                        <Link to="/upload-download">Upload and Download Files</Link>
+                    </li>
                 </ol>
             </div>
             <div className="column">
